@@ -187,6 +187,8 @@ footer a {
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
+    /* Overflow properly auto allows the parent element to become aware of its
+    child element and stretch its dimensions (the parent) to contain them (the child) */
     overflow: auto;
 }
 
